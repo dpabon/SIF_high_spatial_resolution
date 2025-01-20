@@ -1,0 +1,33 @@
+{
+    "basic":{
+        "lat": "PRODUCT/latitude",
+        "lon": "PRODUCT/longitude",
+        "lat_bnd": "PRODUCT/SUPPORT_DATA/GEOLOCATIONS/latitude_bounds",
+        "lon_bnd": "PRODUCT/SUPPORT_DATA/GEOLOCATIONS/longitude_bounds",
+        "time": "time"
+},
+    "grid":{
+        "SIF_743": "PRODUCT/SIF_743",
+        "SIF_Corr_743": "PRODUCT/SIF_Corr_743",
+        "SIF_ERROR_743": "PRODUCT/SIF_ERROR_743",
+        "SIF_735": "PRODUCT/SIF_735",
+        "SIF_Corr_735": "PRODUCT/SIF_Corr_735",
+        "SIF_ERROR_735": "PRODUCT/SIF_ERROR_735",
+        "solar_zenith_angle": "PRODUCT/SUPPORT_DATA/GEOLOCATIONS/solar_zenith_angle",
+        "viewing_zenith_angle": "PRODUCT/SUPPORT_DATA/GEOLOCATIONS/viewing_zenith_angle",
+        "relative_azimuth_angle": "PRODUCT/SUPPORT_DATA/GEOLOCATIONS/relative_azimuth_angle",
+        "cloud_fraction_L2": "PRODUCT/SUPPORT_DATA/INPUT_DATA/cloud_fraction_L2",
+        "Mean_TOA_RAD_743": "PRODUCT/SUPPORT_DATA/DETAILED_RESULTS/Mean_TOA_RAD_743",
+        "Mean_TOA_RAD_735": "PRODUCT/SUPPORT_DATA/DETAILED_RESULTS/Mean_TOA_RAD_735",
+        "delta_time": "PRODUCT/delta_time"
+    },
+    "filter_lt":{
+        "PRODUCT/SUPPORT_DATA/GEOLOCATIONS/viewing_zenith_angle": 40
+    },
+    "filePattern": "TROPOSIF_L2B_YYYY-MM-DD.nc",
+    "folder": "/Net/Groups/BGI/scratch/jgens/TROPOSIF/raw/"
+}
+
+
+
+
