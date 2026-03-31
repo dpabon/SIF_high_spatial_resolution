@@ -1,0 +1,11 @@
+{
+    "chat.agent.enabled": false,
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": [],
+    "wolf.disableHotModeWarning": true,
+    "wolf.pythonPath": "/home/dpabon/miniforge3/envs/oemc_landuse/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.languageServer": "Pylance",
+    "r.lsp.promptToInstall": false
+}
